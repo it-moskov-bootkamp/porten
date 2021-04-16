@@ -1,0 +1,244 @@
+@media (max-width: 1200px) {
+
+
+       .header__menu {
+           position: absolute;
+           left: 0;
+           right: 0;
+           top: -600px;
+           transition: all.5s ease;
+
+       }
+}
+
+@media (max-width: 991px) {
+
+    .burger {
+        display: flex;
+        position: initial;
+        top: 65px;
+        transition: .5s ease;
+    }
+
+
+    .header__menu {
+        flex-direction: column;
+        margin-top: 100px;
+        padding: 0;
+        transition: all .5s ease;
+
+    }
+
+
+    #porten {
+        display: inline-block;
+        align-items: center;
+        width: 100%;
+    }
+
+    .phon__info {
+        display: block;
+
+    }
+
+   .burger__menu {
+       display: flex;
+       flex-direction: column;
+       align-items: flex-end;
+       padding: 0 20px;
+       cursor: pointer;
+   }
+
+
+    .burger__menu span:nth-child(1) {
+        display: inline-block;
+        width: 25px;
+        height: 2px;
+        background: #737373;
+        transition: all .2s ease-in-out;
+    }
+    .burger__menu span:nth-child(2) {
+        display: inline-block;
+        width: 20px;
+        margin: 5px 0;
+        height: 2px;
+        background: #737373;
+        transition: all .2s ease-in-out;
+    }
+    .burger__menu span:nth-child(3) {
+        display: inline-block;
+        width: 15px;
+        height: 2px;
+        margin: 0 0 0 10px;
+        background: #737373;
+        transition: all .2s ease-in-out;
+    }
+
+     .burger__active span:nth-child(2) {
+        display: inline-block;
+        width: 25px;
+        margin: 5px 0 5px 0;
+        height: 2px;
+        background: #737373;
+    }
+
+    .burger__active span:nth-child(3) {
+        display: inline-block;
+        width: 25px;
+        height: 2px;
+        margin: 0;
+        background: #737373;
+    }
+
+
+
+    .description  {
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+    }
+
+
+    #new__collection {
+        width: 100%;
+    }
+
+    .collection__row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .new__collection-title {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        width: 200px;
+        margin: 15px auto;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .time__row {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .content__col-6 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .content__col-4 {
+        padding: 20px;
+        margin: 0 auto;
+    }
+
+    .collection__col-6 {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .catalog__col-6 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .col-6__title {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .collection__desc {
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+    }
+
+    .look__collection {
+        margin-bottom: 40px;
+    }
+
+    #arrivals {
+        margin-top: 30px;
+    }
+
+    .clock__row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .new__arrivals {
+        display: flex;
+        flex-direction: column;
+        width: 110px;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .foot__row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .foot__col-4 {
+        padding-bottom: 30px;
+    }
+
+    .subscribe__content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content__menu  {
+        display:flex;
+        flex-direction: column;
+    }
+
+    .score {
+        display: flex;
+    }
+
+    .lorem {
+        display: flex;
+        width: 300px;
+
+    }
+
+    form {
+        margin-bottom: 20px;
+    }
+
+    .coco {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #foot__nav {
+        margin-top: 20px;
+    }
+
+    .subscribe {
+        display: flex;
+        width: 210px;
+    }
+
+
+
+
+}
+
+@media (max-width: 767px) {
+
+}
+
+@media (max-width: 480px) {
+
+}

@@ -1,0 +1,541 @@
+@import "font.css";
+
+* {
+    font-family:"Playfair Display", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+#registor {
+    display: flex;
+    align-items: center;
+    background: black;
+    padding: -1px 200px;
+}
+
+.phon__info {
+    display: flex;
+    padding: 15px 0;
+}
+
+
+.phon__number {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #969696;
+    padding: 0px 225px 0 15px
+}
+
+.register__form {
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 200px;
+}
+
+.register__title {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+    color: #969696;
+    padding: 0 12px;
+
+}
+
+.header__inner {
+    background: #0F0F0F;
+    display: flex;
+    align-items: center;
+}
+
+.hero__content {
+    display: flex;
+}
+
+.header__menu {
+    padding: 10px 0 0 220px;
+}
+
+.hero {
+    margin: 0 100px;
+}
+
+.porten {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: #FFFFFF;
+}
+
+.header__link {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 17px 12px;
+}
+
+.header__link:hover {
+    background: #1f1f1f;
+    transition: .2s ease;
+    color: #FFFFFF;
+}
+
+.shop {
+    margin: 0 0 0 40px;
+}
+
+#porten {
+    background: url("../image/background/portenbg.svg") center center/cover no-repeat;
+    min-height: 810px;
+}
+
+
+.porten__item {
+    padding-top: 250px;
+    text-align: center;
+
+}
+
+.porten__square {
+    display: inline-block;
+    border: 5px solid#FFF;
+}
+
+
+.porten__title {
+    display: block;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 96px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 50px 60px 0 60px;
+}
+
+.porten__desc {
+    display: block;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 50px;
+}
+
+.description {
+    display: block;
+    width: 630px;
+    margin: 0 auto;
+    padding-top: 80px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF
+}
+
+.season {
+    display: block;
+    padding-top: 90px;
+    ont-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF
+}
+
+.collection__row {
+    display: flex;
+    width: 100%;
+}
+
+
+.content__col-6 {
+    width: 50%;
+    display: block;
+    min-height: 730px;
+    background: #000000;
+    padding-bottom: 90px;
+
+}
+
+.catalog__col-6 {
+    width: 50%;
+    background: url("../image/background/boybg.svg") left center/cover no-repeat;
+    min-height: 730px;
+}
+
+.catalog__item {
+    display: grid;
+    margin: 0 auto;
+    margin-top: 490px;
+}
+
+.new__collection-title {
+    display: block;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+.catalog__desc {
+    display: block;
+    margin-top: 30px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+.time__row {
+    width: 100%;
+    display: flex;
+}
+
+
+.content__col-4 {
+    margin-top: 100px;
+    width: 33.333%;
+    padding: 20px;
+}
+
+.time__item {
+    background: #191B1C
+
+
+}
+
+.time {
+    width: 100%;
+    height: 325px
+
+
+
+}
+
+.athos {
+    display: block;
+    width: 150px;
+    margin: 25px 0 10px 0;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.price {
+    display: block;
+    width: 100px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    color: #D0D0D0;
+}
+
+
+.collection__row {
+    display: flex;
+    width: 100%;
+}
+
+.collection__col-6 {
+    display: block;
+    width: 45%;
+    background: url("../image/men.svg") center center/cover no-repeat;
+    min-height: 600px;
+
+
+}
+
+.men__collection {
+    display: block;
+    width: 100%;
+}
+
+.col-6__title {
+    display: block;
+    width: 55%;
+    background: black;
+}
+
+
+.item__title {
+    text-align: center;
+}
+
+.collection__2018 {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-top: 100px;
+    width: 370px;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF
+}
+
+.collection__desc {
+    display: block;
+    margin: 0 auto 70px;
+    width: 495px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF
+}
+
+.look__collection {
+    display: inline-block;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+    border: 1px solid #FFFFFF;
+}
+
+#arrivals {
+    background: #000000;
+}
+
+.arrivals__container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.new__arrivals {
+    display: block;
+    padding-top: 120px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.clock__row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 40px 160px;
+}
+
+
+.col-3 {
+    display: block;
+    width: 25%;
+    padding-top: 40px;
+}
+
+.clock__item {
+    width: 180px;
+    height: 190px;
+    background: #191B1C;
+}
+
+
+.clock {
+    width: 220px;
+    height: 220px;
+    padding: 10px 60px 40px 10px;
+}
+
+.money {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    color: #D0D0D0;
+}
+
+.clock__row-name {
+    display: flex;
+    padding: 20px 135px;
+}
+
+.row__content {
+    display: flex;
+}
+
+#brends {
+    padding-top: 60px;
+    background: #0F0F0F
+}
+
+.bren {
+    display: block;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF
+}
+
+.brends__row {
+    display: flex;
+    justify-content: center;
+}
+
+.brend__col-12 {
+    margin-bottom: 70px;
+}
+
+
+#foot__nav {
+    padding-top: 80px;
+    background: url("../image/background/foot__nav.svg") center center/cover no-repeat;
+    min-height: 400px;
+    width: 100%;
+}
+
+.foot__row {
+    display: flex;
+}
+
+.foot__col-4 {
+    display: flex;
+    width: 33.333%;
+}
+
+.item {
+    margin: 0 auto;
+}
+
+.score {
+    text-align: center;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #FFFFFF
+}
+
+.lorem {
+    display: block;
+    width: 370px;
+    margin: 40px auto 0;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF
+}
+
+.content__menu {
+    text-align: center;
+}
+
+
+.menu__link {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #D0D0D0;
+    padding: 10px 20px;
+    display: inline-block;
+    background: #000;
+    margin-top: 40px;
+}
+
+::placeholder {
+    color: #FFFFFF;
+}
+
+.subscribe__content {
+    display: flex;
+    padding-top: 40px;
+}
+
+#email {
+    width: 210px;
+    height: 40px;
+    background: #1f1f1f;
+    border: none;
+    padding:  0 0 0 10px;
+}
+
+.subscribe {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    background: black;
+    padding: 10px 20px;
+    border: none;
+}
+
+#footer {
+    height: 50px;
+    background: #0F0F0F;
+    padding: 17px 60px;
+}
+
+.footer__item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__title {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #D0D0D0;
+}
+
+.footer__desc {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    text-decoration: none;
+    text-align: right;
+    color: #D0D0D0
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
